@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C0CC7C91CC4DCDA00F6AF0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CC7C81CC4DCDA00F6AF0B /* main.m */; };
+		8C0CC7CC1CC4DCDA00F6AF0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CC7CB1CC4DCDA00F6AF0B /* AppDelegate.m */; };
+		8C0CC7CF1CC4DCDA00F6AF0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CC7CE1CC4DCDA00F6AF0B /* ViewController.m */; };
+		8C0CC7D21CC4DCDA00F6AF0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0CC7D01CC4DCDA00F6AF0B /* Main.storyboard */; };
+		8C0CC7D41CC4DCDA00F6AF0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0CC7D31CC4DCDA00F6AF0B /* Assets.xcassets */; };
+		8C0CC7D71CC4DCDA00F6AF0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0CC7D51CC4DCDA00F6AF0B /* LaunchScreen.storyboard */; };
+		8C0CC7E21CC4DCDA00F6AF0B /* GrasshopperLoadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CC7E11CC4DCDA00F6AF0B /* GrasshopperLoadingTests.m */; };
+		8C0CC7ED1CC4DCDA00F6AF0B /* GrasshopperLoadingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CC7EC1CC4DCDA00F6AF0B /* GrasshopperLoadingUITests.m */; };
+		8C0CC7FC1CC4DD0E00F6AF0B /* GrasshopperLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CC7FB1CC4DD0E00F6AF0B /* GrasshopperLoadingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C0CC7DE1CC4DCDA00F6AF0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C0CC7BC1CC4DCDA00F6AF0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C0CC7C31CC4DCDA00F6AF0B;
+			remoteInfo = GrasshopperLoading;
+		};
+		8C0CC7E91CC4DCDA00F6AF0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C0CC7BC1CC4DCDA00F6AF0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C0CC7C31CC4DCDA00F6AF0B;
+			remoteInfo = GrasshopperLoading;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C0CC7C41CC4DCDA00F6AF0B /* GrasshopperLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrasshopperLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0CC7C81CC4DCDA00F6AF0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C0CC7CA1CC4DCDA00F6AF0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C0CC7CB1CC4DCDA00F6AF0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C0CC7CD1CC4DCDA00F6AF0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8C0CC7CE1CC4DCDA00F6AF0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C0CC7D11CC4DCDA00F6AF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C0CC7D31CC4DCDA00F6AF0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C0CC7D61CC4DCDA00F6AF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C0CC7D81CC4DCDA00F6AF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C0CC7DD1CC4DCDA00F6AF0B /* GrasshopperLoadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrasshopperLoadingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0CC7E11CC4DCDA00F6AF0B /* GrasshopperLoadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrasshopperLoadingTests.m; sourceTree = "<group>"; };
+		8C0CC7E31CC4DCDA00F6AF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C0CC7E81CC4DCDA00F6AF0B /* GrasshopperLoadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrasshopperLoadingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0CC7EC1CC4DCDA00F6AF0B /* GrasshopperLoadingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrasshopperLoadingUITests.m; sourceTree = "<group>"; };
+		8C0CC7EE1CC4DCDA00F6AF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C0CC7FA1CC4DD0E00F6AF0B /* GrasshopperLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrasshopperLoadingView.h; sourceTree = "<group>"; };
+		8C0CC7FB1CC4DD0E00F6AF0B /* GrasshopperLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrasshopperLoadingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C0CC7C11CC4DCDA00F6AF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0CC7DA1CC4DCDA00F6AF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0CC7E51CC4DCDA00F6AF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C0CC7BB1CC4DCDA00F6AF0B = {
+			isa = PBXGroup;
+			children = (
+				8C0CC7C61CC4DCDA00F6AF0B /* GrasshopperLoading */,
+				8C0CC7E01CC4DCDA00F6AF0B /* GrasshopperLoadingTests */,
+				8C0CC7EB1CC4DCDA00F6AF0B /* GrasshopperLoadingUITests */,
+				8C0CC7C51CC4DCDA00F6AF0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C0CC7C51CC4DCDA00F6AF0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C0CC7C41CC4DCDA00F6AF0B /* GrasshopperLoading.app */,
+				8C0CC7DD1CC4DCDA00F6AF0B /* GrasshopperLoadingTests.xctest */,
+				8C0CC7E81CC4DCDA00F6AF0B /* GrasshopperLoadingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C0CC7C61CC4DCDA00F6AF0B /* GrasshopperLoading */ = {
+			isa = PBXGroup;
+			children = (
+				8C0CC7CA1CC4DCDA00F6AF0B /* AppDelegate.h */,
+				8C0CC7CB1CC4DCDA00F6AF0B /* AppDelegate.m */,
+				8C0CC7FA1CC4DD0E00F6AF0B /* GrasshopperLoadingView.h */,
+				8C0CC7FB1CC4DD0E00F6AF0B /* GrasshopperLoadingView.m */,
+				8C0CC7CD1CC4DCDA00F6AF0B /* ViewController.h */,
+				8C0CC7CE1CC4DCDA00F6AF0B /* ViewController.m */,
+				8C0CC7D01CC4DCDA00F6AF0B /* Main.storyboard */,
+				8C0CC7D31CC4DCDA00F6AF0B /* Assets.xcassets */,
+				8C0CC7D51CC4DCDA00F6AF0B /* LaunchScreen.storyboard */,
+				8C0CC7D81CC4DCDA00F6AF0B /* Info.plist */,
+				8C0CC7C71CC4DCDA00F6AF0B /* Supporting Files */,
+			);
+			path = GrasshopperLoading;
+			sourceTree = "<group>";
+		};
+		8C0CC7C71CC4DCDA00F6AF0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C0CC7C81CC4DCDA00F6AF0B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C0CC7E01CC4DCDA00F6AF0B /* GrasshopperLoadingTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C0CC7E11CC4DCDA00F6AF0B /* GrasshopperLoadingTests.m */,
+				8C0CC7E31CC4DCDA00F6AF0B /* Info.plist */,
+			);
+			path = GrasshopperLoadingTests;
+			sourceTree = "<group>";
+		};
+		8C0CC7EB1CC4DCDA00F6AF0B /* GrasshopperLoadingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C0CC7EC1CC4DCDA00F6AF0B /* GrasshopperLoadingUITests.m */,
+				8C0CC7EE1CC4DCDA00F6AF0B /* Info.plist */,
+			);
+			path = GrasshopperLoadingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C0CC7C31CC4DCDA00F6AF0B /* GrasshopperLoading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0CC7F11CC4DCDA00F6AF0B /* Build configuration list for PBXNativeTarget "GrasshopperLoading" */;
+			buildPhases = (
+				8C0CC7C01CC4DCDA00F6AF0B /* Sources */,
+				8C0CC7C11CC4DCDA00F6AF0B /* Frameworks */,
+				8C0CC7C21CC4DCDA00F6AF0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrasshopperLoading;
+			productName = GrasshopperLoading;
+			productReference = 8C0CC7C41CC4DCDA00F6AF0B /* GrasshopperLoading.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C0CC7DC1CC4DCDA00F6AF0B /* GrasshopperLoadingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0CC7F41CC4DCDA00F6AF0B /* Build configuration list for PBXNativeTarget "GrasshopperLoadingTests" */;
+			buildPhases = (
+				8C0CC7D91CC4DCDA00F6AF0B /* Sources */,
+				8C0CC7DA1CC4DCDA00F6AF0B /* Frameworks */,
+				8C0CC7DB1CC4DCDA00F6AF0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C0CC7DF1CC4DCDA00F6AF0B /* PBXTargetDependency */,
+			);
+			name = GrasshopperLoadingTests;
+			productName = GrasshopperLoadingTests;
+			productReference = 8C0CC7DD1CC4DCDA00F6AF0B /* GrasshopperLoadingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C0CC7E71CC4DCDA00F6AF0B /* GrasshopperLoadingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0CC7F71CC4DCDA00F6AF0B /* Build configuration list for PBXNativeTarget "GrasshopperLoadingUITests" */;
+			buildPhases = (
+				8C0CC7E41CC4DCDA00F6AF0B /* Sources */,
+				8C0CC7E51CC4DCDA00F6AF0B /* Frameworks */,
+				8C0CC7E61CC4DCDA00F6AF0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C0CC7EA1CC4DCDA00F6AF0B /* PBXTargetDependency */,
+			);
+			name = GrasshopperLoadingUITests;
+			productName = GrasshopperLoadingUITests;
+			productReference = 8C0CC7E81CC4DCDA00F6AF0B /* GrasshopperLoadingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C0CC7BC1CC4DCDA00F6AF0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = realank;
+				TargetAttributes = {
+					8C0CC7C31CC4DCDA00F6AF0B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					8C0CC7DC1CC4DCDA00F6AF0B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8C0CC7C31CC4DCDA00F6AF0B;
+					};
+					8C0CC7E71CC4DCDA00F6AF0B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8C0CC7C31CC4DCDA00F6AF0B;
+					};
+				};
+			};
+			buildConfigurationList = 8C0CC7BF1CC4DCDA00F6AF0B /* Build configuration list for PBXProject "GrasshopperLoading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C0CC7BB1CC4DCDA00F6AF0B;
+			productRefGroup = 8C0CC7C51CC4DCDA00F6AF0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C0CC7C31CC4DCDA00F6AF0B /* GrasshopperLoading */,
+				8C0CC7DC1CC4DCDA00F6AF0B /* GrasshopperLoadingTests */,
+				8C0CC7E71CC4DCDA00F6AF0B /* GrasshopperLoadingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C0CC7C21CC4DCDA00F6AF0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0CC7D71CC4DCDA00F6AF0B /* LaunchScreen.storyboard in Resources */,
+				8C0CC7D41CC4DCDA00F6AF0B /* Assets.xcassets in Resources */,
+				8C0CC7D21CC4DCDA00F6AF0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0CC7DB1CC4DCDA00F6AF0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0CC7E61CC4DCDA00F6AF0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C0CC7C01CC4DCDA00F6AF0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0CC7CF1CC4DCDA00F6AF0B /* ViewController.m in Sources */,
+				8C0CC7CC1CC4DCDA00F6AF0B /* AppDelegate.m in Sources */,
+				8C0CC7FC1CC4DD0E00F6AF0B /* GrasshopperLoadingView.m in Sources */,
+				8C0CC7C91CC4DCDA00F6AF0B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0CC7D91CC4DCDA00F6AF0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0CC7E21CC4DCDA00F6AF0B /* GrasshopperLoadingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0CC7E41CC4DCDA00F6AF0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0CC7ED1CC4DCDA00F6AF0B /* GrasshopperLoadingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C0CC7DF1CC4DCDA00F6AF0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C0CC7C31CC4DCDA00F6AF0B /* GrasshopperLoading */;
+			targetProxy = 8C0CC7DE1CC4DCDA00F6AF0B /* PBXContainerItemProxy */;
+		};
+		8C0CC7EA1CC4DCDA00F6AF0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C0CC7C31CC4DCDA00F6AF0B /* GrasshopperLoading */;
+			targetProxy = 8C0CC7E91CC4DCDA00F6AF0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C0CC7D01CC4DCDA00F6AF0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C0CC7D11CC4DCDA00F6AF0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C0CC7D51CC4DCDA00F6AF0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C0CC7D61CC4DCDA00F6AF0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C0CC7EF1CC4DCDA00F6AF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8C0CC7F01CC4DCDA00F6AF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C0CC7F21CC4DCDA00F6AF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GrasshopperLoading/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = realank.GrasshopperLoading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C0CC7F31CC4DCDA00F6AF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GrasshopperLoading/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = realank.GrasshopperLoading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C0CC7F51CC4DCDA00F6AF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GrasshopperLoadingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = realank.GrasshopperLoadingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrasshopperLoading.app/GrasshopperLoading";
+			};
+			name = Debug;
+		};
+		8C0CC7F61CC4DCDA00F6AF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GrasshopperLoadingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = realank.GrasshopperLoadingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrasshopperLoading.app/GrasshopperLoading";
+			};
+			name = Release;
+		};
+		8C0CC7F81CC4DCDA00F6AF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GrasshopperLoadingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = realank.GrasshopperLoadingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GrasshopperLoading;
+			};
+			name = Debug;
+		};
+		8C0CC7F91CC4DCDA00F6AF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GrasshopperLoadingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = realank.GrasshopperLoadingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GrasshopperLoading;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C0CC7BF1CC4DCDA00F6AF0B /* Build configuration list for PBXProject "GrasshopperLoading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0CC7EF1CC4DCDA00F6AF0B /* Debug */,
+				8C0CC7F01CC4DCDA00F6AF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0CC7F11CC4DCDA00F6AF0B /* Build configuration list for PBXNativeTarget "GrasshopperLoading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0CC7F21CC4DCDA00F6AF0B /* Debug */,
+				8C0CC7F31CC4DCDA00F6AF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C0CC7F41CC4DCDA00F6AF0B /* Build configuration list for PBXNativeTarget "GrasshopperLoadingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0CC7F51CC4DCDA00F6AF0B /* Debug */,
+				8C0CC7F61CC4DCDA00F6AF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C0CC7F71CC4DCDA00F6AF0B /* Build configuration list for PBXNativeTarget "GrasshopperLoadingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0CC7F81CC4DCDA00F6AF0B /* Debug */,
+				8C0CC7F91CC4DCDA00F6AF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C0CC7BC1CC4DCDA00F6AF0B /* Project object */;
+}
