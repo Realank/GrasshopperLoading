@@ -35,13 +35,31 @@
     return self;
 }
 
+- (void)dealloc {
+    [self deleteTimer];
+    NSLog(@"dealloc");
+}
+
+- (void)deleteTimer{
+    if (_link) {
+        [_link invalidate];
+        _link = nil;
+    }
+    
+}
+
 
 - (void)clockTick{
-    _count += 15;
-    if (_count > 1000) {
-        _count = 0;
+    if (self.superview) {
+        _count += 15;
+        if (_count > 1000) {
+            _count = 0;
+        }
+        [self setNeedsDisplay];
+    }else{
+        [self deleteTimer];
     }
-    [self setNeedsDisplay];
+    
 }
 
 // Only override drawRect: if you perform custom drawing.
